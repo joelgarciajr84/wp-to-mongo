@@ -8,13 +8,26 @@ Works in WordPress (4.7 or above) or any WordPress installation which have WP-RE
 git clone git@github.com:joelgarciajr84/wp-to-mongo.git
 ```
 
-## Usage
+## Run
 
 ```bash
 nodejs server.js
 ```
 Will be running at your browser at port 8484
 
+## Use
+### You have to send 2 arguments
+1. First one is 'siteurl' (http://educacaofinanceiraparatodos.com/wp-json/wp/v2/posts)
+2. Second is 'postid' which is the post id you want to retrieve and save at your local MongoDB
+3. Full sample: http://localhost:8484/?siteurl=http://educacaofinanceiraparatodos.com/wp-json/wp/v2/posts&postid=5068
+4. If everything works fine you should see this message:
+
+```js
+{
+    "POST": "5068",
+    "STATUS": "Saved successfully"
+}
+```
 
 ## Contributing
 
