@@ -5,7 +5,7 @@ Works in WordPress (4.7 or above) or any WordPress installation which have WP-RE
 ## Install
 
 ```bash
-git clone git@github.com:joelgarciajr84/wp-to-mongo.git
+git clone https://github.com/joelgarciajr84/wp-to-mongo
 ```
 ```bash
 cd wp-to-mongo
