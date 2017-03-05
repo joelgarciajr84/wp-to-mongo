@@ -36,8 +36,8 @@ Will be running at your browser at port 8484
 }
 ```
 ## Contexts of application:
-1. Remote Web crawler
-2. Backup
+1. Remote Data Retriever or a detached Database to other uses
+2. Remote Backup
 3. Data Mining - BigData etc.
 4. There is no delay in the requests, so you can write an application that sends the ids in a loop to be checked and saved in the database.
 
