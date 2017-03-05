@@ -1,12 +1,12 @@
 {
-  "name": "wp-to-mongo",
-  "version": "1.0.0",
-  "description": "Save a remote WordPress post into your local MongoDB. Works in all WordPress (4.7 or above) or any WordPress installation which have WP-REST-API enabled.",
-  "main": "server.js",
-  "author": "Joel Garcia Jr",
-  "dependencies": {
-    "express": "latest",
-    "mongodb": "latest",
-    "request-promise": "latest",
-  }
+	"name": "wp-to-mongo",
+	"version": "1.0.0",
+	"description": "Save a remote WordPress post into your local MongoDB. Works in all WordPress (4.7 or above) or any WordPress installation which have WP-REST-API enabled.",
+	"main": "server.js",
+	"author": "Joel Garcia Jr",
+	"dependencies": {
+		"express": "latest",
+		"mongodb": "latest",
+		"request-promise": "latest"
+	}
 }
