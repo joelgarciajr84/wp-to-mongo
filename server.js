@@ -8,7 +8,7 @@ app.get( '/', function(req, res, next ){
   // Start timing now
   console.time("SEARCH TIME");
 
-  //Checking params
+  //Checking params teste
   if( !req.query.postid || !req.query.siteurl ){
     res.json({
       "error":"WRONG OR MISSING PARAMETERS"
